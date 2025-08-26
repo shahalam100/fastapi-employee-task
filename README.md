@@ -33,21 +33,26 @@ The project includes **authentication, user management, and task CRUD operations
 
 ## 📂 Project Structure
 fastapi-employee-task/
-│── app/
-│ ├── init.py
-│ ├── main.py # Entry point
-│ ├── database.py # Database setup
-│ ├── models.py # SQLAlchemy models
-│ ├── schemas.py # Pydantic schemas
-│ ├── middleware.py # CORS & timing middleware
-│ ├── githubCMD # GitHub helper commands
-│ ├── routers/
-│ │ ├── auth.py # Register/Login
-│ │ ├── users.py # User-related APIs
-│ │ ├── tasks.py # Task CRUD
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py  
+│   ├── config.py
+│   ├── database.py
+│   ├── models.py
+│   ├── schemas.py
+│   ├── auth.py
+│   ├── deps.py
+│   ├── middleware.py
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   └── tasks.py
 │── .gitignore
-│── requirements.txt
 │── README.md
+
+
 
 
 ---
