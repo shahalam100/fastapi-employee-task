@@ -1,0 +1,72 @@
+Step 1: .gitignore
+------------------
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# IDE configs
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Database (⚠️ normally ignored, but we allow SQLite for learning)
+# Uncomment next line in real projects
+# *.db
+
+# If you’re using alembic migrations
+alembic/versions/*.pyc
+
+# Environment variables (never push secrets)
+.env
+
+
+Step 2. git init
+Step 3. git config user.email "test125@gmail.com"
+Step 4. git config user.name "shahalam100"
+Step 5. git remote add origin https://github.com/your-username/fastapi-employee-task.git
+Step 6. git add .
+Step 7. git branch -M main
+        git push -u origin main
+
+
+#in env file:
+----------------
+
+# For SQLite:
+DATABASE_URL = sqlite:///./dev.db
+
+# Change this in real life!
+SECRET_KEY=super-secret-change-me
+ACCESS_TOKEN_EXPIRE_MINUTES=60
+
+
+#Folder Sctructure:
+-------------------
+
+fastapi-employee-task/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── config.py
+│   ├── routers/
+│   │   ├── __init__.py
+│   │   ├── auth.py
+│   │   ├── users.py
+│   │   └── tasks.py
+

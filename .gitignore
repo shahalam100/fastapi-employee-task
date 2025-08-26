@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+env/
+venv/
+.venv/
+
+# IDE configs
+.vscode/
+.idea/
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# FastAPI / Uvicorn logs
+*.log
+
+# Database (⚠️ normally ignored, but we allow SQLite for learning)
+# Uncomment next line in real projects
+# *.db
+
+# If you’re using alembic migrations
+alembic/versions/*.pyc
+
+# Environment variables (never push secrets)
+.env
