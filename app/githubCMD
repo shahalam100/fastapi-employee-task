@@ -85,3 +85,57 @@ Step 1 : git status
 Step 2 : git add app/updated_file
 Step 3 : git commit -m "Commint the updated file"
 Step 4 : git push origin main
+
+
+----------
+
+📘 Git Workflow (Adding New Files / Updating Project)
+
+Step 1 : Create a new file (example: README.md)
+
+        New-Item README.md
+
+Step 2 : Stage the file for commit
+
+        git add README.md
+
+        **(Tip: Use git add . to stage all changed files instead of just one)
+
+Step 3 : Commit with a message
+
+        git commit -m "Add README.md with project details"
+
+Step 4 : Push changes to GitHub
+
+        git push origin main
+
+Step 5 : Check repo status
+
+        git status
+
+
+-----------------
+
+
+🔄 Quick Reference
+
+Step 1 : Check repo status
+
+        git status
+
+
+Step 2 : Stage all modified files
+
+        git add .
+
+
+Step 3 : Commit all staged changes
+
+        git commit -m "Your commit message"
+
+
+Step 4 : Push to GitHub
+
+        git push origin main
+
+

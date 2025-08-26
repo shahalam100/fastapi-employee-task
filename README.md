@@ -175,3 +175,5 @@ Unit & integration tests (Pytest)
    git commit -m "Add README file with project details"
    git push origin main
 
+Thanks!
+
