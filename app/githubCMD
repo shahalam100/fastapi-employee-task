@@ -71,3 +71,12 @@ fastapi-employee-task/
 │   │   ├── users.py
 │   │   └── tasks.py
 
+
+==================================================================================================================================================================================================================
+
+# For committing updated files (that are already pushed to GitHub but modified again), use the following commands to commit and push the changes:
+
+Step 1 : git status
+Step 2 : git add app/updated_file
+Step 3 : git commit -m "Commint the updated file"
+Step 4 : git push origin main
