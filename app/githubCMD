@@ -37,9 +37,10 @@ alembic/versions/*.pyc
 Step 2. git init
 Step 3. git config user.email "test125@gmail.com"
 Step 4. git config user.name "shahalam100"
-Step 5. git remote add origin https://github.com/your-username/fastapi-employee-task.git
-Step 6. git add .
-Step 7. git branch -M main
+Step 5. Commit your Changes :: git commit -m "Initial commit with FastAPI project"
+Step 6. git remote add origin https://github.com/your-username/fastapi-employee-task.git
+Step 7. git add .
+Step 8. git branch -M main
         git push -u origin main
 
 
